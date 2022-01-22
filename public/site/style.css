@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+/*!
+ * Bootstrap v4.5.2 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #10626d;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --orange: #ff2d20;
+    --cordanav: #B0C4DE;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+h5 {
+  text-align: center;
+}
+
+.botao1 {
+  padding-left: 37px;
+  padding-top: 10px
+}
+.card-title {
+  color: black;
+}
+.hr {
+    width: 100%;
+    border: 0;
+    border-top: 2px solid black;
+}
+
+.espaco-oculto {
+    width: 100%;
+    border: 0;
+    border-top: 2px solid #f8bbd0;
+    display: none;
+}
+
+
+.texto-centro {
+    text-align: center;
+    color: black;
+    font-size: 22px;
+}
+
+.borda {
+    text-align: justify;
+    border: 2px solid black;
+    padding: 16px;
+}
+
+.esquerda {
+    float: left;
+}
+
+.direita {
+    float: right;
+}
+
+.numeros {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.numeros p {
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 14px;
+    color: black;
+}
+
+vl {
+    border-left: 2px solid black;
+    height: 180px;
+    margin-left: -2px
+}
+
+body {
+    font-family: "Open Sans", Open, Sans;
+    margin: 0;
+    background-color: #ffffcc;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 30%;
+    background-color: #ffffcc;
+    padding: 20px;
+}
+
+.texto {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin-top: 27px
+}
+
+.main {
+    flex: 70%;
+    background-color: #ffffcc;
+    padding: 20px;
+}
